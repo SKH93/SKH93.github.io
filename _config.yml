@@ -44,7 +44,7 @@ logo:                  /assets/img/logo.png
 author:
   # Used by `jekyll-feed`:
   name:                Kyung Ho Seo
-  email:               <kgcom52@gmail.com>
+  email:               kgcom52@gmail.com
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
@@ -52,14 +52,13 @@ author:
 menu:
   - title:             About
     url:               /about/
-  - title:             Study
-    url:               /study/
-    
   - title:             AI
     url:               /AI/
     submenu:
       - title:  ML/DL
         url:    /MLDL/
+      - title : Paper Review
+        url:    /PR/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -123,7 +122,7 @@ defaults:
       path:            hyde/
     values:
       accent_color:    rgb(38,139,210)
-      theme_color:     rgb(32,32,32)
+#       theme_color:     rgb(32,32,32)
       accent_image:
         background:    rgb(32,32,32)
         overlay:       false
