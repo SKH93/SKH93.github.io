@@ -53,13 +53,15 @@ menu:
   - title:             About
     url:               /about/
   - title:             AI
-    url:               /AI/
+    url:               /ai/
     submenu:
-      - title:  ML/DL
-        url:    /MLDL/
+      - title:  Project
+        url:    /project/
       - title : Paper Review
         url:    /PR/
-
+  - title:            Security
+    url:              /sc/ 
+   
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 legal:
