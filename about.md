@@ -13,7 +13,7 @@ redirect_from:
 <!--author-->
 * * *
 <center>
-<span style="font-size:170%; font-weight:bold">서경호</span>
+<span style="font-size:170%; font-weight:bold">서경호<br></span>
 </center>
 
 <center> >&nbsp;Major : Eletronic Engineering <br> 
