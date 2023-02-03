@@ -33,9 +33,9 @@ redirect_from:
 > Electronic Engineering
 > 
 > 지도교수님: 
-    - Dong-Hee Kim
-    - Yong Hoon Choi
-    - In Seon Yeo
+    - Dong-Hee Kim<br>
+    - Yong Hoon Choi<br>
+    - In Seon Yeo<br>
 
 ## Research Interest
 ---
