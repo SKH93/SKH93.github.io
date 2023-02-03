@@ -60,7 +60,7 @@ menu:
       - title : Paper Review
         url:    /PR/
   - title:            Security
-    url:              /sc/ 
+    url:              /security/ 
   - title:            Programming Language            
     url:              /pl/
    
