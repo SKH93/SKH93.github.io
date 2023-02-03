@@ -2,7 +2,7 @@
 layout: list
 type: category
 bigtitle: Programming Language
-slug: programming language
+slug: pl
 menu: true
 submenu: true
 order: 4
