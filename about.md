@@ -33,11 +33,11 @@ redirect_from:
 ## Education
 ---
 > Chonnam National University(Gwang-ju)
-> 
+
 > Mar.2013 ~ Aug.2020 
->
+
 > Electronic Engineering
-> 
+
 > 지도교수님:<br>
     - Dong-Hee Kim<br>
     - Yong Hoon Choi<br>
@@ -53,9 +53,9 @@ redirect_from:
 * AI(ML/DL)
     + Computer Vision
         > Classification
-        > 
+        
         > Object Detection
-        > 
+        
         > Segmentation
     + Anamaly Detection
 
