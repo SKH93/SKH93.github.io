@@ -1,7 +1,7 @@
 ---
 layout: list
 bigtitle: AI
-slug: 
+slug: AI
 menu: true
 submenu: false
 order: 2
