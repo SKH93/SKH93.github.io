@@ -28,7 +28,7 @@ font-weight:bold">
 
 ## Education
 ---
-> Chonnam National University
+> Chonnam National University(Gwang-ju)
 > 
 > Mar.2013 ~ Aug.2020 
 >
