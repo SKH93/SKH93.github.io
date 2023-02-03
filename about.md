@@ -25,7 +25,7 @@ redirect_from:
 ---
 > 1993.02.17 대한민국 광주광역시 출생
 
-> Mail: kgcom52@gmail.com
+> Mail : kgcom52@gmail.com
 
 > Github : <a href="https://github.com/SKH93">https://github.com/SKH93</a>
 
