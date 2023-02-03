@@ -1,6 +1,6 @@
 ---
 layout: post
-category: blog
+category: AI
 bigtitle: ML/DL
 description: >
   Machine Learning, Deep Learning 공부 내용
