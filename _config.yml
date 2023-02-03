@@ -21,19 +21,19 @@ baseurl:               ''
 lang:                  ko-KR, en-US
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Knowledge Repository(KR)
+title:                 My Shared &nbsp; Knowledge Repository
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+  분야의 전반에 걸쳐 두루두루 공부하고 서로 공유하는 블로그
+  댓글 환영합니다
 
 # A shorter description for the sidebar.
-tagline:               Tech Researcher
+tagline:               R&D
 
 # A list of keywords for your blog
-keywords:              []
+keywords:              [AI, blog, 4th industry, Computer Science, Security]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
