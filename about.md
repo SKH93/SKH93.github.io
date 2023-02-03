@@ -13,16 +13,14 @@ redirect_from:
 <!--author-->
 * * *
 <center>
-<span style="font-size:170%; font-weight:bold">
-서경호
-</span>
+<span style="font-size:170%; font-weight:bold">서경호</span>
 </center>
 <br>
-<center>Major : Eletronic Engineering</center>
+<center> > Major : Eletronic Engineering</center>
 <br>
-<center>Chonnam National University</center>
+<center> > Belong : Starlabs</center>
 <br>
-<center>22, Bongcheon-ro 29-gil, Gwanak-gu, Seoul, Republic of Korea</center>
+<center> > Address : 22, Bongcheon-ro 29-gil, Gwanak-gu, Seoul, Republic of Korea</center>
 
 ## Education
 ---
