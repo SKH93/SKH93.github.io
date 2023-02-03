@@ -1,6 +1,6 @@
 ---
 layout: post
-category: blog
+category: AI
 bigtitle: Papers
 description: >
   논문 리뷰
