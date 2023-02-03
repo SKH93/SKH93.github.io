@@ -4,6 +4,7 @@ image: /assets/img/blog/hydejack-9.jpg
 description: >
 hide_description: true
 redirect_from:
+    -
 <!--   - /download/ -->
 ---
 
@@ -19,7 +20,7 @@ font-weight:bold">
 </span>
 </center>
 
-<center>MAJOR : Eletronic Engineering</center>
+<center>Major : Eletronic Engineering</center>
 
 <center>Chonnam National University</center>
 
@@ -27,13 +28,16 @@ font-weight:bold">
 
 ## Education
 ---
-> Chonnam National University(전남대학교)
+> Chonnam National University
 > 
 > Mar.2013 ~ Aug.2020 
 >
-> Eletronic Engineering(전기공학과)
+> Electronic Engineering
 > 
-> 지도교수님: 최용훈, 김동희, 구할본, 여인선
+> 지도교수님: 
+    - Dong-Hee Kim
+    - Yong Hoon Choi
+    - In Seon Yeo
 
 ## Research Interest
 ---
@@ -44,8 +48,8 @@ font-weight:bold">
 
 * AI(ML/DL)
     + Computer Vision
-        > Classification
-        > Object Detection
-        > Segmentation
+        -- Classification
+        -- Object Detection
+        -- Segmentation
     + Anamaly Detection
 
