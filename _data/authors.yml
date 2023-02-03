@@ -9,9 +9,7 @@ author1:
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
     - Artificial Intelligence Research&Development
-    - I intereset in both Software and Hardware
-    
-    Open `_data/authors.yml` to edit this text.
+  
 
   # This photo will be used in the about section
   picture:
