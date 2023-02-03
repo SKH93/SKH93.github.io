@@ -47,7 +47,7 @@ redirect_from:
 ---
 * Department
     + Medical
-    + Eletronic
+    + Electronic
     + Computer Securtiy
 
 * AI(ML/DL)
