@@ -15,12 +15,11 @@ redirect_from:
 <center>
 <span style="font-size:170%; font-weight:bold">서경호</span>
 </center>
-<br>
-<center> >&nbsp;Major : Eletronic Engineering</center>
-<br>
-<center> >&nbsp;Belong : Starlabs</center>
-<br>
-<center> >&nbsp;Address : 22, Bongcheon-ro 29-gil, Gwanak-gu, Seoul, Republic of Korea</center>
+
+<center> >&nbsp;Major : Eletronic Engineering <br> 
+    >&nbsp;Belong : Starlabs <br> 
+    >&nbsp;Address : 22, Bongcheon-ro 29-gil, Gwanak-gu, Seoul, Republic of Korea <br>
+</center>
 
 ## Education
 ---
