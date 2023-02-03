@@ -38,7 +38,7 @@ redirect_from:
 
 > Electronic Engineering
 
-> 지도교수님:<br>
+> Advisor :<br>
     - Dong-Hee Kim<br>
     - Yong Hoon Choi<br>
     - In Seon Yeo<br>
