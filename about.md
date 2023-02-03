@@ -44,8 +44,10 @@ redirect_from:
 
 * AI(ML/DL)
     + Computer Vision
-        -- Classification
-        -- Object Detection
-        -- Segmentation
+        > Classification
+        > 
+        > Object Detection
+        > 
+        > Segmentation
     + Anamaly Detection
 
