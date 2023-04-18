@@ -29,6 +29,11 @@ redirect_from:
 
 > Github : <a href="https://github.com/SKH93">https://github.com/SKH93</a>
 
+## Career
+---
+> 2021.02 ~ 2022.08 Healthhub Corp.
+> 2022.09 ~ 2023.03 Starlabs Corp.
+> 2023.03 ~ 2023.04 Suprema ID Corp.
 
 ## Education
 ---
