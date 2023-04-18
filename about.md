@@ -31,9 +31,9 @@ redirect_from:
 
 ## Career
 ---
-> 2021.02 ~ 2022.08 Healthhub Corp.
-> 2022.09 ~ 2023.03 Starlabs Corp.
-> 2023.03 ~ 2023.04 Suprema ID Corp.
+> 2021.02 ~ 2022.08 Healthhub Corp. AI Researcher&Engineer<br>
+> 2022.09 ~ 2023.03 Starlabs Corp. AI Researcher&Engineer<br>
+> 2023.03 ~ 2023.04 Suprema ID Corp. AI Researcher&Engineer<br>
 
 ## Education
 ---
@@ -44,9 +44,9 @@ redirect_from:
 > Electronic Engineering
 
 > Advisor :<br>
-    - Dong-Hee Kim<br>
-    - Yong Hoon Choi<br>
-    - In Seon Yeo<br>
+    - Dong-Hee Kim / Chonnam National University Professor<br>
+    - Yong Hoon Choi / Chonnam National University Professor<br>
+    - In Seon Yeo / Chonnam National University Professor<br>
 
 ## Research Interest
 ---
