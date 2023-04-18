@@ -17,7 +17,7 @@ redirect_from:
 </center>
 
 <center> >&nbsp;Major : Eletronic Engineering <br> 
-    >&nbsp;Belong : Starlabs <br> 
+    >&nbsp;Belong : - <br> 
     >&nbsp;Address : 22, Bongcheon-ro 29-gil, Gwanak-gu, Seoul, Republic of Korea <br>
 </center>
 
