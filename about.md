@@ -37,11 +37,11 @@ redirect_from:
 
 ## Education
 ---
-> Chonnam National University(Gwang-ju)
+> University : Chonnam National University(Gwang-ju)
 
-> Mar.2013 ~ Aug.2020 
+> Period : Mar.2013 ~ Aug.2020 
 
-> Electronic Engineering
+> Major : Electronic Engineering
 
 > Advisor :<br>
     - Dong-Hee Kim / Chonnam National University Professor<br>
@@ -54,13 +54,13 @@ redirect_from:
     + Medical
     + Electronic
     + Computer Securtiy
+    + Hacking
+    + Malicious Code Analysis
 
 * AI(ML/DL)
     + Computer Vision
-        > Classification
-        
-        > Object Detection
-        
-        > Segmentation
+        ++ Classification
+        ++ Object Detection
+        ++ Segmentation
     + Anamaly Detection
 
