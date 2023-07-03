@@ -18,7 +18,7 @@ redirect_from:
 
 <center> >&nbsp;Major : Eletronic Engineering <br> 
     >&nbsp;Belong : - <br> 
-    >&nbsp;Address : 22, Bongcheon-ro 29-gil, Gwanak-gu, Seoul, Republic of Korea <br>
+    >&nbsp;Address : Gwanak-gu, Seoul, Republic of Korea <br>
 </center>
 
 ## Personal Data
@@ -27,7 +27,7 @@ redirect_from:
 
 > Mail : kgcom52@gmail.com
 
-> Github : <a href="https://github.com/SKH93">https://github.com/SKH93</a>
+> Github : <a href="https://github.com/SKH93">https://github.com/SKH93
 
 ## Career
 ---
@@ -59,8 +59,8 @@ redirect_from:
 
 * AI(ML/DL)
     + Computer Vision
-        ++ Classification
-        ++ Object Detection
-        ++ Segmentation
+        + Classification
+        + Object Detection
+        + Segmentation
     + Anamaly Detection
 
