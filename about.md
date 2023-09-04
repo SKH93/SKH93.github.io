@@ -18,12 +18,12 @@ redirect_from:
 
 <center> >&nbsp;Major : Eletronic Engineering <br> 
     >&nbsp;Belong : - <br> 
-    >&nbsp;Address : Gwanak-gu, Seoul, Republic of Korea <br>
+    >&nbsp;Address : Seoul, Republic of Korea <br>
 </center>
 
 ## Personal Data
 ---
-> 1993.02.17 대한민국 광주광역시 출생
+> Birth : 1993.02.17
 
 > Mail : kgcom52@gmail.com
 
