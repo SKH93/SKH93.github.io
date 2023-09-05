@@ -34,6 +34,7 @@ redirect_from:
 > 2021.02 ~ 2022.08 Healthhub Corp. AI Researcher&Engineer<br>
 > 2022.09 ~ 2023.03 Starlabs Corp. AI Researcher&Engineer<br>
 > 2023.03 ~ 2023.04 Suprema ID Corp. AI Researcher&Engineer<br>
+> 2023.07 ~         Doowon Electronic Communication Corp. AI Researcher&Engineer<br>
 
 ## Education
 ---
