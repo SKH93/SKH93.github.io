@@ -21,19 +21,18 @@ url:                   https://SKH93.github.io
 lang:                  ko-KR, en-US
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Shared&nbsp;Knowledge Repository
+title:                 Shared&nbsp;Knowledge
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  분야의 전반에 걸쳐 두루두루 공부하고 서로 공유하는 블로그
-  댓글 환영합니다
+  나의 지식을 누군가에게 나눠준다.
 
 # A shorter description for the sidebar.
-tagline:               R&D
+tagline:               Everything can be done!👏
 
 # A list of keywords for your blog
-keywords:              [AI, blog, 4th industry, Computer Science, Security]
+keywords:              [AI, blog, 4th industry, Computer Science, CS]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -55,14 +54,23 @@ menu:
   - title:             AI
     url:               /ai/
     submenu:
-      - title:  Project
-        url:    /project/
-      - title : Paper Review
-        url:    /PR/
+      - title:  Papers
+        url:    /papers/
+      - title : mldl
+        url:    /mldl/
+      - title : etc
+        url:    /ai-etc/
   - title:            Security
     url:              /security/ 
   - title:            Programming Language            
     url:              /pl/
+    submenu:
+      - title: Python
+        url: /python/
+      - title: Java
+        url: /java/
+      - title : C
+        url: /c/
    
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -115,7 +123,8 @@ font:                  Noto Sans, Helvetica, Arial, sans-serif
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss
-font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
+#font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
+font_heading:          Noto Sans
 
 # The font used for code blocks. Expects a string that is a valid CSS font-family value.
 font_code:             Fira Code, Menlo, Monaco, Consolas, monospace;
@@ -179,24 +188,24 @@ kramdown:
 
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
-#google_analytics:      UA-XXXXXXXX-X
+google_analytics:      G-36EYLVSLB4
 
 # Set which comment system to use.
 #comments:
   # 'disqus' or 'utterances' are available.
-  #provider:            utterances
+  provider:            utterances
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
-#disqus:                <username>
+disqus:                skh
 
 # Before to use utterance, You must install utterance github app.
 # Check below link for detail.
 # https://utteranc.es/
 #utterances:
-  #repo:                "skh93/blog-comments-repo"
-  #issue-term:          "pathname"
-  #theme:               "github-light"
+  repo:                "skh93/blog-comments-repo"
+  issue-term:          "pathname"
+  theme:               "github-light"
 
 
 # Setting a tinyletter username will enable the newsletter subscription box.

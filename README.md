@@ -1,4 +1,4 @@
-# Hydejack Starter Kit
+<!-- # Hydejack Starter Kit
 
 A quicker, cleaner way to get started blogging with [Hydejack](https://hydejack.com/).
 
@@ -44,5 +44,11 @@ A quicker, cleaner way to get started blogging with [Hydejack](https://hydejack.
 
 - Open files and read the comments
 - Read the [docs](https://hydejack.com/docs/)
-- Buy the [PRO version](https://hydejack.com/download/) to get the project and resume layout, newsletter subscription box, custom forms, and more.
+- Buy the [PRO version](https://hydejack.com/download/) to get the project and resume layout, newsletter subscription box, custom forms, and more. -->
 
+# SKH93's Github Pages
+
+<https://skh93.github.io>
+
+---
+Powered by [Hydejack-Starter-Kit](https://github.com/hydecorp/hydejack-starter-kit)

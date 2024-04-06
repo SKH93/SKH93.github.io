@@ -1,14 +1,16 @@
 ---
-layout: post
-category: AI
-bigtitle: etc
+layout: post #method
+category: AI #big category
+bigtitle: etc #small category
+#내부 설명
 description: >
-  기타
+  기타 
 related_posts:
   -
 addons:
   - related
   - comments
 list: true
+#순서
 order: 3
 ---
