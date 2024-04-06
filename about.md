@@ -63,5 +63,5 @@ redirect_from:
         + Classification
         + Object Detection
         + Segmentation
-    <!-- + Anamaly Detection -->
+    + Anamaly Detection
 
