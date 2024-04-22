@@ -18,7 +18,7 @@ published: true
 
 
 
-## Python(파이썬)
+## Python Grammer - 파이썬 문법
 
 ---
 
@@ -26,9 +26,9 @@ published: true
 
 참고 사이트 : 
 
-> TIOBE Index : https://www.tiobe.com/tiobe-index/
+> TIOBE Index : [TIOBE Index](https://www.tiobe.com/tiobe-index/)
 >
-> Pypl Index : https://pypl.github.io/PYPL.html
+> Pypl Index : [Pypl Index](https://pypl.github.io/PYPL.html)
 
 ![그림1](/assets/img/pl/python/pl_ref_1.png)
 
