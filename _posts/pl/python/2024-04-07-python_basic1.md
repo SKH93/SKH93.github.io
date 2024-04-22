@@ -48,7 +48,7 @@ published: true
 
 프로그래밍 실행과정
 
-- ![그림3](/assets/img/pl/python/pl_execute_1.png)
+![그림3](/assets/img/pl/python/pl_execute_1.png)
 
 **파이썬**
 
