@@ -1,7 +1,7 @@
 ---
 layout: post
-bigtitle: "파이썬 기초"
-subtitle: "01. python basic"
+bigtitle: "파이썬 기초 문법"
+subtitle: "01. Python Basic"
 categories:
     - programming language
     - python
@@ -37,6 +37,10 @@ published: true
 ## Programming Language(프로그래밍 언어)
 
 ---
+기계어
+
+- 정의 : 기계가 이해할 수 있는 언어, 0과 1로 구성됨
+   > ex) 0100 1011 1011
 
 프로그래밍 언어, 고급언어
 
