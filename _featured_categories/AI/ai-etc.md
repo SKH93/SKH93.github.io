@@ -1,7 +1,7 @@
 ---
 layout: post #method
 category: AI #big category
-bigtitle: etc #small category
+bigtitle: AI-etc #small category
 #내부 설명
 description: >
   기타 

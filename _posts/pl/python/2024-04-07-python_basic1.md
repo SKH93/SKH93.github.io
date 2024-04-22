@@ -5,11 +5,14 @@ subtitle: "01. python basic"
 categories:
     - programming language
     - python
-tags:
-  - python
-  - programming language
-  - basic
+# tags:
+#   - python
+#   - programming language
+#   - basic
 comments: true
+# related_posts:
+#    -
+#    - 
 published: true
 ---
 
