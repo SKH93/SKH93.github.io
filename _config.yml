@@ -62,6 +62,21 @@ menu:
         url:    /ai-etc/
   - title:            Security
     url:              /security/ 
+    submenu:
+      - title : Systemhack
+        url : /systemhack/
+      - title : Reversing
+        url : /reversing/
+      - title : Webhack
+        url : /webhack/
+      - title : Crpytography
+        url : /crpytography/
+      - title : Forensic
+        url : /forensic/
+      - title : Networkhack
+        url : /networkhack/
+      - title : Mobilehack
+        url : /mobilehack/
   - title:            Programming Language            
     url:              /pl/
     submenu:
@@ -71,7 +86,13 @@ menu:
         url: /java/
       - title : C
         url: /c/
-   
+  - title:            etc
+    url:              /etc/
+    submenu:
+      - title:  exp
+        url :   /experience/   
+      - title:  etc
+        url :   /etc/
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 legal:

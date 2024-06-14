@@ -18,4 +18,4 @@ description: >
 * [etc]{:.heading.flip-title} --- etc, 추후 분리 예정
 
 [Exp]: /experience/
-[etc]: /exp-etc/
+[etc]: /etc/
