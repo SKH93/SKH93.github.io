@@ -1,7 +1,7 @@
 ---
 layout: post
 category: etc
-bigtitle: Expereinece
+bigtitle: Experience
 description: >
   경험
 related_posts:
