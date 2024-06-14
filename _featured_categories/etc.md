@@ -7,7 +7,7 @@ bigtitle: ETC
 submenu: true
 order: 5
 description: >
-  교육
+  기타
 ---
 
 # ETC
@@ -18,4 +18,4 @@ description: >
 * [etc]{:.heading.flip-title} --- etc, 추후 분리 예정
 
 [Exp]: /experience/
-[etc]: /etc/
+[etc]: /exp-etc/
