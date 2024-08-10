@@ -60,6 +60,7 @@ menu:
         url:    /mldl/
       - title : etc
         url:    /ai-etc/
+
   - title:            Security
     url:              /security/ 
     submenu:
@@ -77,6 +78,7 @@ menu:
         url : /networkhack/
       - title : Mobilehack
         url : /mobilehack/
+
   - title:            Programming Language            
     url:              /pl/
     submenu:
@@ -86,6 +88,7 @@ menu:
         url: /java/
       - title : C
         url: /c/
+        
   - title:            etc
     url:              /etc/
     submenu:
