@@ -218,7 +218,7 @@ comments:
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
-# disqus:                skh
+disqus:                skh
 
 # Before to use utterance, You must install utterance github app.
 # Check below link for detail.
