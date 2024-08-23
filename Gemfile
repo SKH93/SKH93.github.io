@@ -53,5 +53,5 @@ end
 gem 'wdm' if Gem.win_platform?
 gem "tzinfo-data" if Gem.win_platform?
 
-gem 'jekyll-spaceship'
-gem 'jekyll-mermaid'
+# gem 'jekyll-spaceship'
+# gem 'jekyll-mermaid'
