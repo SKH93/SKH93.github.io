@@ -433,12 +433,10 @@ mathjax-processor:
           - ['\[','\]']
       svg:
         fontCache: 'global'
-
     optimize: # optimization on building stage to check and add mathjax scripts
       enabled: true # value `false` for adding to all pages
       include: []   # include patterns for math expressions checking (regexp)
       exclude: []   # exclude patterns for math expressions checking (regexp)
-
   plantuml-processor:
     mode: default  # mode value 'pre-fetch' for fetching image at building stage
     css:
@@ -447,7 +445,6 @@ mathjax-processor:
       code: 'plantuml!'
       custom: ['@startuml', '@enduml']
     src: http://www.plantuml.com/plantuml/svg/
-
   mermaid-processor:
     mode: default  # mode value 'pre-fetch' for fetching image at building stage
     css:
@@ -458,7 +455,6 @@ mathjax-processor:
     config:
       theme: default
     src: https://mermaid.ink/svg/
-
   media-processor:
     default:
       id: 'media-{id}'
@@ -468,7 +464,6 @@ mathjax-processor:
       frameborder: 0
       style: 'max-width: 600px; outline: none;'
       allow: 'encrypted-media; picture-in-picture'
-
   emoji-processor:
     css:
       class: emoji
