@@ -30,9 +30,10 @@ published: true
 
 ## Python Inner Function
 
-1. abs(x) : 절대값을 반환
-인수 : 정수, 부동 소수점 숫자, 객체
-복소수 -> 크기 반환
+1. abs(x) : 절대값을 반환<br>
+
+인수 : 정수, 부동 소수점 숫자, 객체<br>
+복소수 -> 크기 반환<br>
 
 ```python
 #__abs__()
@@ -95,6 +96,7 @@ asyncio.run(main())
 ```
 
 3. all(iterable) : iterable 모든 요소가 참(iterable이 비어있으면)이면 True, 아니면 False
+
 ```python
 def all(iterable):
     for element in iterable:
@@ -106,10 +108,10 @@ def all(iterable):
 4. awaitable anext(async_iterator), awaitable anext(async_iterator, default)
 : 대기 시 지정된 비동기 반복자에서 다음 항목 반환하거나, 지정된 경우와 반복자가 모두 소진된 경우 기본값을 반환함
 
-next() 내장 함수의 비동기 변형 -> 비슷하게 동작
-async_iterator __anext__()의 메서드 호출 -> awaitable 반환
-기다리면 반복자의 다음 값이 반환됨
-default가 주어지면 반복자가 고갈되면 반환, 그렇지 않으면 StopAsyncIteration 발생
+next() 내장 함수의 비동기 변형 -> 비슷하게 동작<br>
+async_iterator __anext__()의 메서드 호출 -> awaitable 반환<br>
+기다리면 반복자의 다음 값이 반환됨<br>
+default가 주어지면 반복자가 고갈되면 반환, 그렇지 않으면 StopAsyncIteration 발생<br>
 
 ```python
 #python 버전 3.10 부터 추가
@@ -131,9 +133,10 @@ def any(iterable):
 ```python
 ascii()
 ```
+
 7. bin(x) : 10진수를 2진수로 반환, 앞에 '0b'가 붙음, String으로 반환
 
-x가 정수가 아니면 __index__() 메서드를 통해 정수 반환
+x가 정수가 아니면 __index__() 메서드를 통해 정수 반환<br>
 
 ```python
 bin(3) #'0b11'
@@ -141,7 +144,8 @@ bin(-10) #'-0b1010'
 ```
 
 8. bool() : True, False 반환
-class bool(object=False, /)
+
+class bool(object=False, /)<br>
 
 ```python
 #python 3.7에서 변경
@@ -159,20 +163,20 @@ bool(True)
 ```
 
 10. bytearray() : 새로운 바이트 배열을 돌려줌, 0~255사이
-class byterarray(source=b'') : 정수 시 배열이 그 크기를 갖고, 널 바이트로 초기화됨
-class bytearray(source, encoding) : 문자열 시 encoding 매개변수 반드시 필요
-class bytearray(source, encoding, errors)
+class byterarray(source=b'') : 정수 시 배열이 그 크기를 갖고, 널 바이트로 초기화됨<br>
+class bytearray(source, encoding) : 문자열 시 encoding 매개변수 반드시 필요<br>
+class bytearray(source, encoding, errors)<br>
 
-bytes() : 0~255사이 변경 불가능한 정수 시퀀스 bytes 객체 반환
-class bytes(source=b'')
-class bytes(source, encoding)
-class bytes(source, encoding, errors)
+bytes() : 0~255사이 변경 불가능한 정수 시퀀스 bytes 객체 반환<br>
+class bytes(source=b'')<br>
+class bytes(source, encoding)<br>
+class bytes(source, encoding, errors)<br>
 
-bytearray()와 거의 동일
+bytearray()와 거의 동일<br>
 
 11. callable(object) : 객체 인수가 호출 가능하면 True, 아니면 False
 
-class에서는 __call__() 함수와 동일
+class에서는 __call__() 함수와 동일<br>
 
 ```python
 #python 3.0에서 제거 후 3.2에서 다시 도입
@@ -207,9 +211,10 @@ class C:
 ```
 
 15. complex() : 복소수 나타냄
-class complex(number=0, /)
-class complex(string, /)
-class complex(real=0, imag=0)
+
+class complex(number=0, /)<br>
+class complex(string, /)<br>
+class complex(real=0, imag=0)<br>
 
 ```python
 #python 3.6에서 변경
@@ -231,13 +236,15 @@ delattr(x, 'foobar') == del x.foobar
 ```
 
 17. dict() : 딕셔너리로 변환
-class dict(**kwarg)
-class dict(mapping, **kwarg)
-class dict(iterable, **kwarg)
+
+class dict(**kwarg)<br>
+class dict(mapping, **kwarg)<br>
+class dict(iterable, **kwarg)<br>
 
 18. dir() : 인자가 없으면 현재 지역 스코프에 있는 이름들 리스트 돌려줌, 있으면 해당 객체에 유효한 attribute 리스트를 돌려줌 
-dir()
-dir(object)
+
+dir()<br>
+dir(object)<br>
 
 ```python
 import struct
@@ -305,8 +312,9 @@ print(filter_list) #[50,60,70,80]
 ```
 
 24. float() : 실수로 변환
-class float(number=0.0, /)
-class float(string, /)
+
+class float(number=0.0, /)<br>
+class float(string, /)<br>
 
 ```python
 #python 3.6에서 변경
@@ -318,15 +326,18 @@ float('3') #3.000000
 ```
 
 25. format(value, foramt_spec='') : value를 format_spec을 통하여 포맷팅 나타냄
+
 ```python
 #python 3.4에서 변경
+format(1, '')
 ```
 
 26. frozenset(iterable=set()) : 새 frozenset을 돌려줌
 
 27. getattr() : object의 이름 속성의 값 돌려줌
-class getattr(object, name)
-class getattr(object, name, default)
+
+class getattr(object, name)<br>
+class getattr(object, name, default)<br>
 
 ```python
 getattr(x, 'foobar') == x.foobar
@@ -355,15 +366,18 @@ hex(-42) #'-0x2a'
 33. id(object) : 객체의 아이덴티티를 돌려줌
 
 34. input() : prompt 인자 존재 시 끝에 개행문자를 붙이지 않고 표준 출력에 씀
-class input()
-class input(prompt)
+
+class input()<br>
+class input(prompt)<br>
+
 ```python
 input("-->")
 ```
 
 35. int() : 정수로 반환
-class int(number=0, /)
-class int(string, /, base=10)
+
+class int(number=0, /)<br>
+class int(string, /, base=10)<br>
 
 ```python
 int(3.14) #3
@@ -374,8 +388,9 @@ int(3.14) #3
 37. issubclass(class, classinfo) : class가 classinfo의 하위 클래스인 경우 True 반환
 
 38. iter(object) : 반복자 객체를 반환
-class iter(object)
-class iter(object, sentinel)
+
+class iter(object)<br>
+class iter(object, sentinel)<br>
 
 39. len(s) : 객체 길이 반환
 
@@ -408,25 +423,30 @@ print(list(added_numbers))  # [11, 22, 33, 44, 55]
 ```
 
 43. max() : 최댓값 반환
-max(iterable, *, key=None)
-max(iterable, *, default, key=None)
-max(arg1, arg2, *args, key=None)
+
+max(iterable, *, key=None)<br>
+max(iterable, *, default, key=None)<br>
+max(arg1, arg2, *args, key=None)<br>
 
 
 44. memoryview(object) : 지정된 인자로부터 만들어진 메모리 뷰 객체 반환
-class memoryview(object)
+
+class memoryview(object)<br>
 
 45. min() : 최솟값 반환
-min(iterable, *, key=None)
-min(iterable, *, default, key=None)
-min(arg1, arg2, *args, key=None)
+
+min(iterable, *, key=None)<br>
+min(iterable, *, default, key=None)<br>
+min(arg1, arg2, *args, key=None)<br>
 
 46. next() : 반복자의 메서도를 호출하여 반복자에서 다음 항목을 검색함
-next(iterator)
-next(iterator, default)
+
+next(iterator)<br>
+next(iterator, default)<br>
 
 47. object() : 새로운 특징 없는 객체를 반환
-class object
+
+class object<br>
 
 48. oct(x) : 10진수를 8진수로 변환
 
@@ -444,6 +464,7 @@ ord('a') #97
 ```
 
 51. pow(base, exp, mod=None) : base의 exp 거듭제곱을 반환
+
 ```python
 pow(3, 2) #9
 pow(3, 4, 2) #1
@@ -502,8 +523,9 @@ class C:
 ```
 
 54. range() : 범위를 시퀀스 형태로 돌려줌
-range(stop)
-range(start, stop, step=1)
+
+range(stop)<br>
+range(start, stop, step=1)<br>
 
 ```python
 range(10) #(0,1,2,3,4,5,6,7,8,9)
@@ -525,16 +547,16 @@ class Person:
 
 56. reversed(seq) : 시퀀스를 역순으로 뒤집어서 반환
 
-57. round(number, ndigits=None) : number을 소수점 다음에 ndigits 정밀도로 반올림한 값을 반환
-ndigits = 0 이면 정수로 반환 
+57. round(number, ndigits=None) : number을 소수점 다음에 ndigits 정밀도로 반올림한 값을 반환, ndigits = 0 이면 정수로 반환 
 
 ```python
 round(3.14, 2) # 3.1
 ```
 
 58. set() : set 형식으로 반환
-class set()
-class set(iterable)
+
+class set()<br>
+class set(iterable)<br>
 
 59. setattr(object, name, value) : 속성 값을 정의
 
@@ -543,12 +565,14 @@ setattr(x, 'foobar', 123) ==  x.foobar=123
 ```
 
 60. slice() : 인덱스 집합을 나타내는 슬라이스 객체를 반환
-class slice(stop)
-class slice(start, stop, step=None) 
+
+class slice(stop)<br>
+class slice(start, stop, step=None)<br> 
 
 61. sorted(iterable, /, *, key=None, reverse=False) : 새 정렬된 리스트를 반환
 
 62. staticmethod() : 정적 메서드로 변환
+
 ```python
 class C:
     @staticmethod
@@ -561,14 +585,16 @@ class C:
 ```
 
 63. str() : String타입으로 변환
-class str(object='')
-class str(object=b'', encoding='utf-8', errors='strict')
+
+class str(object='')<br>
+class str(object=b'', encoding='utf-8', errors='strict')<br>
 
 64. sum(iterable, /, start=0) : 합계 반환
 
 65. super() : 부모나 형제 클래스에 위임하는 프락시 객체를 반환
-class super
-class super(type, object_or_type=None)
+
+class super<br>
+class super(type, object_or_type=None)<br>
 
 ```python
 class C(B):
@@ -577,12 +603,15 @@ class C(B):
 ```
 
 66. tuple() : 튜플 형태로 반환
-class tuple
-class tuple(iterable)
+
+class tuple<br>
+class tuple(iterable)<br>
 
 67. type() : 타입 출력
-class type(object)
-class type(name, bases, dict, **kwds)
+
+class type(object)<br>
+class type(name, bases, dict, **kwds)<br>
+
 ```python
 a = 4
 type(a) #<class : int>
