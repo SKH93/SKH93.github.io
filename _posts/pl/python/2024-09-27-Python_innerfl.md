@@ -22,6 +22,7 @@ published: true
 ---
 
 이번 포스트에서는 코딩테스트에 정말 필요한 파이썬의 내부 라이브러리 및 함수에 대해 알아보겠습니다.<br>
+현재 총 71개의 내장함수 존재
 
 참조 사이트 : 
 > python 공식문서 : [Python Inner Function](https://docs.python.org/ko/3/library/functions.html#anext)
@@ -30,7 +31,7 @@ published: true
 
 ## Python Inner Function
 
-1. abs(x) : 절대값을 반환<br>
+- abs(x) : 절대값을 반환<br>
 
 인수 : 정수, 부동 소수점 숫자, 객체<br>
 복소수 -> 크기 반환<br>
@@ -44,7 +45,7 @@ print(abs(b)) #7
 print(abs(c)) #7
 ```
 
-2. aiter(async_iterable) : 비동기 반복 가능한 객체에 대해 비동기 반복자 반환
+- aiter(async_iterable) : 비동기 반복 가능한 객체에 대해 비동기 반복자 반환
 
 ```python
 # x.__aiter__()
@@ -95,7 +96,7 @@ async def main():
 asyncio.run(main())
 ```
 
-3. all(iterable) : iterable 모든 요소가 참(iterable이 비어있으면)이면 True, 아니면 False
+- all(iterable) : iterable 모든 요소가 참(iterable이 비어있으면)이면 True, 아니면 False
 
 ```python
 def all(iterable):
@@ -105,7 +106,7 @@ def all(iterable):
     return True
 ```
 
-4. awaitable anext(async_iterator), awaitable anext(async_iterator, default)
+- awaitable anext(async_iterator), awaitable anext(async_iterator, default)
 : 대기 시 지정된 비동기 반복자에서 다음 항목 반환하거나, 지정된 경우와 반복자가 모두 소진된 경우 기본값을 반환함
 
 next() 내장 함수의 비동기 변형 -> 비슷하게 동작<br>
@@ -118,7 +119,7 @@ default가 주어지면 반복자가 고갈되면 반환, 그렇지 않으면 St
 #예시 필요
 ```
 
-5. any(iterable) : iterable의 요소 중 하나라도 참이면 True, iterable이 비어 있으면 False를 돌려줌
+- any(iterable) : iterable의 요소 중 하나라도 참이면 True, iterable이 비어 있으면 False를 돌려줌
 
 ```python
 def any(iterable):
@@ -128,13 +129,13 @@ def any(iterable):
     return False
 ```
 
-6. ascii(object) : 인쇄 가능한 표현 포함한 문자열 반환, 이스케이프를 사용한 repr() 반환된 문자열의 비 ASCII 문자를 이스케이프함
+- ascii(object) : 인쇄 가능한 표현 포함한 문자열 반환, 이스케이프를 사용한 repr() 반환된 문자열의 비 ASCII 문자를 이스케이프함
 
 ```python
 ascii()
 ```
 
-7. bin(x) : 10진수를 2진수로 반환, 앞에 '0b'가 붙음, String으로 반환
+- bin(x) : 10진수를 2진수로 반환, 앞에 '0b'가 붙음, String으로 반환
 
 x가 정수가 아니면 __index__() 메서드를 통해 정수 반환<br>
 
@@ -143,7 +144,7 @@ bin(3) #'0b11'
 bin(-10) #'-0b1010'
 ```
 
-8. bool() : True, False 반환
+- bool() : True, False 반환
 
 class bool(object=False, /)<br>
 
@@ -155,14 +156,14 @@ bool(True)
 
 ```
 
-9. breakpoint(*args, **kws) : 디버거로 이동
+- breakpoint(*args, **kws) : 디버거로 이동
 
 ```python
 #python 3.7에서 추가
 #sys.breakpointhook() 참조
 ```
 
-10. bytearray() : 새로운 바이트 배열을 돌려줌, 0~255사이
+- bytearray() : 새로운 바이트 배열을 돌려줌, 0~255사이
 class byterarray(source=b'') : 정수 시 배열이 그 크기를 갖고, 널 바이트로 초기화됨<br>
 class bytearray(source, encoding) : 문자열 시 encoding 매개변수 반드시 필요<br>
 class bytearray(source, encoding, errors)<br>
@@ -174,7 +175,7 @@ class bytes(source, encoding, errors)<br>
 
 bytearray()와 거의 동일<br>
 
-11. callable(object) : 객체 인수가 호출 가능하면 True, 아니면 False
+- callable(object) : 객체 인수가 호출 가능하면 True, 아니면 False
 
 class에서는 __call__() 함수와 동일<br>
 
@@ -182,7 +183,7 @@ class에서는 __call__() 함수와 동일<br>
 #python 3.0에서 제거 후 3.2에서 다시 도입
 ```
 
-12. chr(i) : ascii에서 숫자를 문자열로 돌려줌
+- chr(i) : ascii에서 숫자를 문자열로 돌려줌
 
 ```python
 #0~114111(16진수 : 0x10FFFF 까지)
@@ -190,7 +191,7 @@ class에서는 __call__() 함수와 동일<br>
 chr(97) #'a'
 ```
 
-13. classmethod() : 메서드를 클래스 메서드로 변환
+- classmethod() : 메서드를 클래스 메서드로 변환
 
 ```python
 #python 3.9에서 변경
@@ -202,7 +203,7 @@ class C:
     def f(cls, arg1, arg2): ...
 ```
 
-14. compile(source, filename, mode, flags=0, dont_inherit=False, optimize=-1) : 컴파일 수행
+- compile(source, filename, mode, flags=0, dont_inherit=False, optimize=-1) : 컴파일 수행
 
 ```python
 #python 3.2에서 변경
@@ -210,7 +211,7 @@ class C:
 #python 3.8에서 추가
 ```
 
-15. complex() : 복소수 나타냄
+- complex() : 복소수 나타냄
 
 class complex(number=0, /)<br>
 class complex(string, /)<br>
@@ -229,19 +230,19 @@ complex(imag=-4.5) #-4.5j
 complex(-1.23, 4.5) #-1.23+4.5j
 ```
 
-16. delattr(object, name) : setattr()과 관련, 삭제
+- delattr(object, name) : setattr()과 관련, 삭제
 
 ```python
 delattr(x, 'foobar') == del x.foobar 
 ```
 
-17. dict() : 딕셔너리로 변환
+- dict() : 딕셔너리로 변환
 
 class dict(**kwarg)<br>
 class dict(mapping, **kwarg)<br>
 class dict(iterable, **kwarg)<br>
 
-18. dir() : 인자가 없으면 현재 지역 스코프에 있는 이름들 리스트 돌려줌, 있으면 해당 객체에 유효한 attribute 리스트를 돌려줌 
+- dir() : 인자가 없으면 현재 지역 스코프에 있는 이름들 리스트 돌려줌, 있으면 해당 객체에 유효한 attribute 리스트를 돌려줌 
 
 dir()<br>
 dir(object)<br>
@@ -264,13 +265,13 @@ dir(s)
 ['area', 'location', 'perimeter']
 ```
 
-19. divmod(a,b) : 두 개의(복소수가 아닌)정수를 나누서 몫,나머지로 구성된 숫자 쌍 반환
+- divmod(a,b) : 두 개의(복소수가 아닌)정수를 나누서 몫,나머지로 구성된 숫자 쌍 반환
 
 ```python
 divmod(10,4) #(2, 2)
 ```
 
-20. enumerate(iterable, start=0) : 열거 객체 돌려줌
+- enumerate(iterable, start=0) : 열거 객체 돌려줌
 
 ```python
 seasons = ['Spring', 'Summer', 'Fall', 'Winter']
@@ -287,16 +288,16 @@ def enumerate(iterable, start=0):
         n += 1
 ```
 
-21. eval(expression, globals=None, Locals=None) : python 표현으로 파싱
+- eval(expression, globals=None, Locals=None) : python 표현으로 파싱
 
 ```python
 x = 1
 eval('x+1') #2
 ```
 
-22. exec(object, globals=None, locals=None, /, *, closure=None) : python 코드의 동적 실행 지원
+- exec(object, globals=None, locals=None, /, *, closure=None) : python 코드의 동적 실행 지원
 
-23. filter(function, iterable) : 함수를 사용하여 iterable에서 만족하는 값을 반환
+- filter(function, iterable) : 함수를 사용하여 iterable에서 만족하는 값을 반환
 
 ```python
 def FilterFunc(num):
@@ -311,7 +312,7 @@ filter_list = list(filter(lambda n : n > 40, num_list))
 print(filter_list) #[50,60,70,80]
 ```
 
-24. float() : 실수로 변환
+- float() : 실수로 변환
 
 class float(number=0.0, /)<br>
 class float(string, /)<br>
@@ -325,16 +326,16 @@ float(3) #3.000000
 float('3') #3.000000
 ```
 
-25. format(value, foramt_spec='') : value를 format_spec을 통하여 포맷팅 나타냄
+- format(value, foramt_spec='') : value를 format_spec을 통하여 포맷팅 나타냄
 
 ```python
 #python 3.4에서 변경
 format(1, '')
 ```
 
-26. frozenset(iterable=set()) : 새 frozenset을 돌려줌
+- frozenset(iterable=set()) : 새 frozenset을 돌려줌
 
-27. getattr() : object의 이름 속성의 값 돌려줌
+- getattr() : object의 이름 속성의 값 돌려줌
 
 class getattr(object, name)<br>
 class getattr(object, name, default)<br>
@@ -343,29 +344,29 @@ class getattr(object, name, default)<br>
 getattr(x, 'foobar') == x.foobar
 ```
 
-28. globals() : 전역 변수
+- globals() : 전역 변수
 
 ```python
 a = 5
 globals(a) #모듈 네임스페이스를 구현하는 사전을 반환함 
 ```
 
-29. hasattr(object, name) : name이 object의 속성 중 하나면 True, 아니면 False 반환
+- hasattr(object, name) : name이 object의 속성 중 하나면 True, 아니면 False 반환
 
-30. hash(object) : 객체의 해시값을 돌려줌
+- hash(object) : 객체의 해시값을 돌려줌
 
-31. help() : 내장 도움말 시스템
+- help() : 내장 도움말 시스템
 
-32. hex(x) : 10진수를 16진수로 변환
+- hex(x) : 10진수를 16진수로 변환
 
 ```python
 hex(255) #'0xff'
 hex(-42) #'-0x2a'
 ```
 
-33. id(object) : 객체의 아이덴티티를 돌려줌
+- id(object) : 객체의 아이덴티티를 돌려줌
 
-34. input() : prompt 인자 존재 시 끝에 개행문자를 붙이지 않고 표준 출력에 씀
+- input() : prompt 인자 존재 시 끝에 개행문자를 붙이지 않고 표준 출력에 씀
 
 class input()<br>
 class input(prompt)<br>
@@ -374,7 +375,7 @@ class input(prompt)<br>
 input("-->")
 ```
 
-35. int() : 정수로 반환
+- int() : 정수로 반환
 
 class int(number=0, /)<br>
 class int(string, /, base=10)<br>
@@ -383,27 +384,27 @@ class int(string, /, base=10)<br>
 int(3.14) #3
 ```
 
-36. isinstance(object, classinfo) : object 인수가 classinfo 인수의 인스턴스이거나 해당 하위 클랫의 인스턴스 인 경우 True를 반환, 아닌 경우 False 반환
+- isinstance(object, classinfo) : object 인수가 classinfo 인수의 인스턴스이거나 해당 하위 클랫의 인스턴스 인 경우 True를 반환, 아닌 경우 False 반환
 
-37. issubclass(class, classinfo) : class가 classinfo의 하위 클래스인 경우 True 반환
+- issubclass(class, classinfo) : class가 classinfo의 하위 클래스인 경우 True 반환
 
-38. iter(object) : 반복자 객체를 반환
+- iter(object) : 반복자 객체를 반환
 
 class iter(object)<br>
 class iter(object, sentinel)<br>
 
-39. len(s) : 객체 길이 반환
+- len(s) : 객체 길이 반환
 
 ```python
 s = [1,2,3,4]
 print(len(s)) #4
 ```
 
-40. list() : 리스트로 반환
+- list() : 리스트로 반환
 
-41. locals() : 현재 지역 심볼 테이블을 나타내는 딕셔너리를 갱신하고 돌려줌
+- locals() : 현재 지역 심볼 테이블을 나타내는 딕셔너리를 갱신하고 돌려줌
 
-42. map(function, iterable, **iterables) : iterable에 함수를 적용시켜 반환
+- map(function, iterable, **iterables) : iterable에 함수를 적용시켜 반환
 
 ```python
 def square(x):
@@ -422,61 +423,61 @@ added_numbers = map(add, numbers1, numbers2)
 print(list(added_numbers))  # [11, 22, 33, 44, 55]
 ```
 
-43. max() : 최댓값 반환
+- max() : 최댓값 반환
 
 max(iterable, *, key=None)<br>
 max(iterable, *, default, key=None)<br>
 max(arg1, arg2, *args, key=None)<br>
 
 
-44. memoryview(object) : 지정된 인자로부터 만들어진 메모리 뷰 객체 반환
+- memoryview(object) : 지정된 인자로부터 만들어진 메모리 뷰 객체 반환
 
 class memoryview(object)<br>
 
-45. min() : 최솟값 반환
+- min() : 최솟값 반환
 
 min(iterable, *, key=None)<br>
 min(iterable, *, default, key=None)<br>
 min(arg1, arg2, *args, key=None)<br>
 
-46. next() : 반복자의 메서도를 호출하여 반복자에서 다음 항목을 검색함
+- next() : 반복자의 메서도를 호출하여 반복자에서 다음 항목을 검색함
 
 next(iterator)<br>
 next(iterator, default)<br>
 
-47. object() : 새로운 특징 없는 객체를 반환
+- object() : 새로운 특징 없는 객체를 반환
 
 class object<br>
 
-48. oct(x) : 10진수를 8진수로 변환
+- oct(x) : 10진수를 8진수로 변환
 
 ```python
 oct(8) #'0o10'
 oct(-56) #'-0o70'
 ```
 
-49. open(file, mode='r', buffering=-1, encoding=None, errors=None, newline=None, closefd=True, opener=None) : 파일을 열고 해당 파일 객체를 반환
+- open(file, mode='r', buffering=-1, encoding=None, errors=None, newline=None, closefd=True, opener=None) : 파일을 열고 해당 파일 객체를 반환
 
-50. ord(c) : ascii에서 string을 숫자로 반환
+- ord(c) : ascii에서 string을 숫자로 반환
 
 ```python
 ord('a') #97
 ```
 
-51. pow(base, exp, mod=None) : base의 exp 거듭제곱을 반환
+- pow(base, exp, mod=None) : base의 exp 거듭제곱을 반환
 
 ```python
 pow(3, 2) #9
 pow(3, 4, 2) #1
 ```
 
-52. print(*objects, sep='', end='\n', file=None, flush=False) : 출력 함수
+- print(*objects, sep='', end='\n', file=None, flush=False) : 출력 함수
 
 ```python
 print("Hi", sep='', end='\n')
 ```
 
-53. property(fget=None, fset=None, fdel=None, doc=None) : 프로퍼티 어트리뷰트를 반환
+- property(fget=None, fset=None, fdel=None, doc=None) : 프로퍼티 어트리뷰트를 반환
 
 ```python
 class C:
@@ -522,7 +523,7 @@ class C:
         del self._x
 ```
 
-54. range() : 범위를 시퀀스 형태로 돌려줌
+- range() : 범위를 시퀀스 형태로 돌려줌
 
 range(stop)<br>
 range(start, stop, step=1)<br>
@@ -533,7 +534,7 @@ range(1, 10, step=1) #(1,2,3,4,5,6,7,8,9)
 range(1, 11, step=2) #(1,3,5,7,9)
 ```
 
-55. repr(object) : 객체의 인쇄 가능한 표현을 포함하는 문자열을 반환
+- repr(object) : 객체의 인쇄 가능한 표현을 포함하는 문자열을 반환
 
 ```python
 class Person:
@@ -545,33 +546,33 @@ class Person:
       return f"Person('{self.name}', {self.age})"
 ```
 
-56. reversed(seq) : 시퀀스를 역순으로 뒤집어서 반환
+- reversed(seq) : 시퀀스를 역순으로 뒤집어서 반환
 
-57. round(number, ndigits=None) : number을 소수점 다음에 ndigits 정밀도로 반올림한 값을 반환, ndigits = 0 이면 정수로 반환 
+- round(number, ndigits=None) : number을 소수점 다음에 ndigits 정밀도로 반올림한 값을 반환, ndigits = 0 이면 정수로 반환 
 
 ```python
 round(3.14, 2) # 3.1
 ```
 
-58. set() : set 형식으로 반환
+- set() : set 형식으로 반환
 
 class set()<br>
 class set(iterable)<br>
 
-59. setattr(object, name, value) : 속성 값을 정의
+- setattr(object, name, value) : 속성 값을 정의
 
 ```python
 setattr(x, 'foobar', 123) ==  x.foobar=123
 ```
 
-60. slice() : 인덱스 집합을 나타내는 슬라이스 객체를 반환
+- slice() : 인덱스 집합을 나타내는 슬라이스 객체를 반환
 
 class slice(stop)<br>
 class slice(start, stop, step=None)<br> 
 
-61. sorted(iterable, /, *, key=None, reverse=False) : 새 정렬된 리스트를 반환
+- sorted(iterable, /, *, key=None, reverse=False) : 새 정렬된 리스트를 반환
 
-62. staticmethod() : 정적 메서드로 변환
+- staticmethod() : 정적 메서드로 변환
 
 ```python
 class C:
@@ -584,14 +585,14 @@ class C:
     method = staticmethod(regular_function)
 ```
 
-63. str() : String타입으로 변환
+- str() : String타입으로 변환
 
 class str(object='')<br>
 class str(object=b'', encoding='utf-8', errors='strict')<br>
 
-64. sum(iterable, /, start=0) : 합계 반환
+- sum(iterable, /, start=0) : 합계 반환
 
-65. super() : 부모나 형제 클래스에 위임하는 프락시 객체를 반환
+- super() : 부모나 형제 클래스에 위임하는 프락시 객체를 반환
 
 class super<br>
 class super(type, object_or_type=None)<br>
@@ -602,12 +603,12 @@ class C(B):
         super().method(arg) 
 ```
 
-66. tuple() : 튜플 형태로 반환
+- tuple() : 튜플 형태로 반환
 
 class tuple<br>
 class tuple(iterable)<br>
 
-67. type() : 타입 출력
+- type() : 타입 출력
 
 class type(object)<br>
 class type(name, bases, dict, **kwds)<br>
@@ -617,9 +618,9 @@ a = 4
 type(a) #<class : int>
 ```
 
-68. vars() : __dict__ 속성이 있는 모듈, 클래스, 인스턴스, 객체를 반환
+- vars() : __dict__ 속성이 있는 모듈, 클래스, 인스턴스, 객체를 반환
 
-69. zip(*iterables, strict=False) : 여러 반복 가능한 항목을 병렬로 반복하면서 각 항목의 항목을 포함하는 튜플을 생성 반환
+- zip(*iterables, strict=False) : 여러 반복 가능한 항목을 병렬로 반복하면서 각 항목의 항목을 포함하는 튜플을 생성 반환
 
 ```python
 x = [1, 2, 3]
@@ -629,4 +630,4 @@ x2, y2 = zip(*zip(x, y))
 x == list(x2) and y == list(y2) #True
 ```
 
-70. __import__(name, globals=None, locals=None, fromlist=(), level=0) : import문에 의해 호출됨
+- __import__(name, globals=None, locals=None, fromlist=(), level=0) : import문에 의해 호출됨
