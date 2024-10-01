@@ -46,15 +46,19 @@ published: true
 5. 제약사항
     - 입력된 파라미터의 모든 iterator 객체의 길이가 같아야 함
 
-✅ 기본 문법<br>
-> map(function, iteration)
+✅ 기본 문법
+
+> map(function, iteration)<br>
+
 function : 각 요소에 적용할 함수 이름<br>
 iteration : 함수를 적용할 데이터 집합<br>
 
 type : map타입
 
-✅ 활용 문법<br>
-> map(function, iteration1, iteration2 ...)
+✅ 활용 문법
+
+> map(function, iteration1, iteration2 ...)<br>
+
 function : 각 요소에 적용할 함수 이름<br>
 iteration1, iteration2 ... : 함수를 적용할 데이터 집합<br>
 
