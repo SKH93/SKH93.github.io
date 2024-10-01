@@ -24,7 +24,7 @@ published: true
 이번 포스트에서는 Python에서 자주 사용하고 유용한 함수인 map(), lambda(), apply() 사용을 다루겠습니다.
 
 
-## Python map
+## map
 
 * 특징
 
