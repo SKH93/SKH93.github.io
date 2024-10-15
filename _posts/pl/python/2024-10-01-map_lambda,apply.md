@@ -84,9 +84,25 @@ print(list(added_numbers)) #[11, 22, 33, 44, 55]
 list(map(int, [1.1, 2.2, 3.3])) #[1, 2, 3]
 ```
 
+## lambda
+
+람다함수는 익명함수(Anonymous function)라고 불림
+간단한 한 줄 짜리 함수를 정의할 때 사용
+주로 filter(), map(), sorted() 등의 함수와 함께 사용, 인자로 전달됨
 
 
+*특징
+1. 메모리 절약
+2. 코드의 간결함
+3. 함수의 이름이 없음
+4. 표현식 하나만 사용 가능
 
+![lambda와 함수](/assests/img/pl/python/lambda1.png)
+
+**✅ 기본 문법**
+> **lambda arguments : expression**<br>
+*arguments : 매개변수, 인자*<br> 
+*expression : 표현식*
 
 
 
