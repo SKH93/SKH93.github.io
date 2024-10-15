@@ -21,12 +21,13 @@ url:                   https://skh93.github.io
 lang:                  ko-KR, en-US
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Shared&nbsp;Knowledge
+# title:                 Shared&nbsp;Knowledge
+title:                 Integration&nbsp;of&nbsp;Effort
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  나의 지식을 누군가에게 나눠준다.
+  Study, Efficient, Realization, Time, Effort
 
 # A shorter description for the sidebar.
 tagline:               Everything can be done!👏
