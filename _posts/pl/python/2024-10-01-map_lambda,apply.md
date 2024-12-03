@@ -104,5 +104,17 @@ list(map(int, [1.1, 2.2, 3.3])) #[1, 2, 3]
 *arguments : 매개변수, 인자*<br> 
 *expression : 표현식*
 
+**✅ 활용 문법**
 
+1. map()과 활용
 
+```python
+list(map(lambda x: x**2, range(5)))
+#[0, 1, 4, 9, 16]
+```
+2. reduce()와 활용
+
+```python
+from functools import reduce
+reduce(lambda x:y x+y, )
+```
