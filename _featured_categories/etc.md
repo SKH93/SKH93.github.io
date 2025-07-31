@@ -3,11 +3,13 @@ layout: list
 type : category
 bigtitle: ETC
 # slug: security
+sitemap: true
+hide_description : false
 # menu: true
-submenu: true
+# submenu: true
 order: 5
 description: >
-  기타
+  Etc
 ---
 
 # ETC

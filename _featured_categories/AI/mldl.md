@@ -3,7 +3,7 @@ layout: post
 category: AI
 bigtitle: ML/DL
 description: >
-  Machine Learning, Deep Learning 공부 내용
+  Machine Learning, Deep Learning
 related_posts:
   -
 addons:

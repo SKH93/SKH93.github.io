@@ -3,7 +3,7 @@ layout: post
 category: Programming Language
 bigtitle: Python
 description: >
-  Python 언어
+  Python Study
 related_posts:
   -
 addons:

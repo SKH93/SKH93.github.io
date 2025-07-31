@@ -3,7 +3,7 @@ layout: post
 category: Programming Language
 bigtitle: Java
 description: >
-  Java 언어
+  Java Study
 related_posts:
   -
 addons:

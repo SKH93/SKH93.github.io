@@ -3,7 +3,7 @@ layout: post
 category: AI
 bigtitle: Papers
 description: >
-  논문 리뷰
+  Papers Reviews
 related_posts:
   -
 addons:

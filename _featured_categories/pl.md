@@ -2,13 +2,14 @@
 layout: list
 type: category
 bigtitle: Programming Language
-slug: programming language
-menu: true
-submenu: true
+# slug: programming language
+sitemap: true
+hide_description : false
+# menu: true
+# submenu: true
 order: 4
 description: >
-  프로그래밍 언어 공부
-sitemap: true
+  Programming Language
 ---
 
 # Programming Language

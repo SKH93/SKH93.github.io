@@ -4,7 +4,7 @@ category: AI #big category
 bigtitle: AI-etc #small category
 #내부 설명
 description: >
-  기타 
+  ML/DL etc
 related_posts:
   -
 addons:

@@ -1,21 +1,26 @@
 ---
 layout: list
 type : category
-bigtitle: Security
+bigtitle: Hacking/Security
 # slug: security
-# menu: true
 sitemap : true
 hide_description : false
-submenu: true
+# menu: true
 order: 3
+# submenu: true
 description: >
-  정보보안
+  Hacking/Security
 ---
 
 
 # Security
 
 ## Category
+
+* [Study]{:.heading.flip-title} --- Study
+
+[Study]: /hack-sec/
+<!-- ## Category
 
 * [Systemhack]{:.heading.flip-title} --- 시스템 해킹
 * [Reversing]{:.heading.flip-title} --- 리버싱 엔지니어링
@@ -31,4 +36,4 @@ description: >
 [Crpyto]: /crpytography/
 [Forensic]: /forensic/
 [Networkhack]: /networkhack/
-[Mobilehack]: /mobilehack/
+[Mobilehack]: /mobilehack/ -->
