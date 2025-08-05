@@ -13,11 +13,12 @@ redirect_from:
 
 <!--author-->
 * * *
+<img src="./assets/img/me.png", style="float: left; margin-right:20px; margin-bottom:10px; width:100px; height:100px; border-radius:70%">
 <center>
 <span style="font-size:170%; font-weight:bold">서경호<br></span>
 </center>
 
-<center> 
+<center>
     ▶&nbsp;Major : Eletronic Engineering <br> 
     ▶&nbsp;Affiliation : - <br> 
     ▶&nbsp;Address : Gwang-ju, Republic of Korea <br>
