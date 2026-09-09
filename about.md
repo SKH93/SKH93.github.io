@@ -12,8 +12,11 @@ redirect_from:
 # About
 
 <!--author-->
-* * *
+<!-- * * * -->
+<center>
 <img src="./assets/img/me.png" style="float:left; margin-right:20px; margin-bottom:10px; width:100px; height:100px; border-radius:70%">
+</center>
+
 <center>
 <span style="font-size:170%; font-weight:bold">서경호<br></span>
 </center>
